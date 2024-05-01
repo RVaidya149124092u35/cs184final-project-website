@@ -7,7 +7,7 @@ import BP from './images/Ball Pivot.png';
 import Fish from './images/Poisson.png';
 import beanOG from './images/beanOriginal.png';
 import beanReconstructed from './images/beanReconstructed.png';
-// import vid1 from './images/ball radius.mov';
+// import vid1 from './images/ball_radius .mp4';
 import './App.css';
 function App() {
   return (
@@ -55,10 +55,8 @@ function App() {
         
       </Section>
       <Section title="Results">
-        <p>The accompanying point cloud viewer demo showcases visualization capabilities, providing insights into the mesh reconstruction process as well as, animations, and videos of the system are also included.</p>
-        {/* <video src{vid1} alt="Vid" width = '1000' height = '100'/> */}
-
-        <p> Here is a comparison between an mesh, and the reconstructed mesh obtained by running the algorithm on just the vertices of the original mesh:</p>
+        <p>The video linked at the top demonstrates the reconstructor in action, and highlights the effects of using several different radii. Below is a comparison between a mesh, and the reconstructed mesh obtained by running the algorithm on just the vertices of the original mesh:</p>
+        {/* <video src={vid1} alt="Vid" width = '1000' height = '100'/> */}
         <div>
           <div className="image-container">
             <img src={beanOG} alt="Poisson reconstruction Illustration" title="Original" width="40%" height="40%" style={{ display: 'block', margin: '20px auto' }} />

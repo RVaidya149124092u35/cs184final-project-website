@@ -3,7 +3,7 @@ import React from 'react';
 
 const Header = () => {
   const handleVideoClick = () => {
-    window.location.href = 'https://www.youtube.com/watch?v=gOgpdp3lP8M&list=RDeVa7sTN1TKg&index=11';
+    window.location.href = 'https://www.youtube.com/watch?v=kvoJlMnLQ1I';
   };
 
   const handlePresentationClick = () => {
