@@ -5,7 +5,6 @@ import Section from './Section';
 import IMAGES from './images/index1.js';
 import BP from './images/Ball Pivot.png';
 import Fish from './images/Poisson.png';
-import vid1 from './images/ball radius.mov';
 import './App.css';
 function App() {
   return (
@@ -36,7 +35,7 @@ Additionally, the iterative nature of algorithm development highlights the signi
       </Section>
       <Section title="Results">
         <p>The accompanying point cloud viewer demo showcases visualization capabilities, providing insights into the mesh reconstruction process as well as, animations, and videos of the system are also included.</p>
-        <video src{vid1} alt="Vid" width = '1000' height = '100'/>
+        <video src="./images/ball_radius.mp4" alt="Vid" width = '1000' height = '100'/>
       </Section>
       <Section title="References">
       <a href="http://mesh.brown.edu/taubin/pdfs/bernardini-etal-tvcg99.pdf"> The Ball-Pivoting Algorithm for Surface Reconstruction </a>
